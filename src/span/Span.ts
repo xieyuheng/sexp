@@ -31,7 +31,7 @@ export class Span {
   }
 }
 
-// TODO The code is copied from `@cicada-lang/partech`,
+// TODO The code is copied from `@xieyuheng/partech`,
 //   in need of refactoring.
 
 const color_mode: ColorMode = isBrowser() ? "html" : "escape-code"

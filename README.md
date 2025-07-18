@@ -9,7 +9,7 @@ An implementation of [S-expression](https://en.wikipedia.org/wiki/S-expression) 
 ## Installation
 
 ```
-npm i @cicada-lang/sexp
+npm i @xieyuheng/sexp
 ```
 
 ## Examples
@@ -22,12 +22,12 @@ Parsing lambda calculus expressions:
       | (<exp> <exp> ...)
 ```
 
-Example from from [**@cicada-lang/lambda.sexp**](https://github.com/cicada-lang/lambda.sexp):
+Example from from [**@xieyuheng/lambda.sexp**](https://github.com/xieyuheng/lambda.sexp):
 
-- See [**src/lang/parser/**](https://github.com/cicada-lang/lambda.sexp/tree/master/src/lang/parser) for the complete example.
+- See [**src/lang/parser/**](https://github.com/xieyuheng/lambda.sexp/tree/master/src/lang/parser) for the complete example.
 
 ```typescript
-import { cons, match, matchList, matchSymbol, Sexp, v } from "@cicada-lang/sexp"
+import { cons, match, matchList, matchSymbol, Sexp, v } from "@xieyuheng/sexp"
 import { Exp } from "../exp"
 import * as Exps from "../exps"
 
@@ -66,7 +66,7 @@ npm run test     # Run test
 ## Contributions
 
 To make a contribution,
-[fork this project](https://github.com/cicada-lang/cicada/fork)
+[fork this project](https://github.com/xieyuheng/cicada/fork)
 and create a pull request.
 
 Please read the [STYLE-GUIDE.md](STYLE-GUIDE.md) before you change the code.
